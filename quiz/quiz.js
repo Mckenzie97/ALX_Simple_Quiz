@@ -18,7 +18,7 @@ function checkAnswer(event){
         feedbackDiv.style.color = "green";
     } else {
         feedbackDiv.textContent = "That's incorrect. Try again!";
-        feedbackDiv.style.color = 'blue';
+        feedbackDiv.style.color = 'red';
     }
 }
 document.getElementById("submit-answer").addEventListener('click', checkAnswer);
